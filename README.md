@@ -65,6 +65,7 @@ echo "HALs cloned successfully"
 echo "============================"
 ```
 
+Clone Full
 ```bash
 # Clone Device Trees for Sapphire (Full history)
 echo "Cloning Device Trees for Sapphire..."
