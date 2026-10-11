@@ -5,19 +5,19 @@
 echo "Cloning Device Trees for Sapphire..."
 
 rm -rf device/xiaomi/sapphire-kernel
-git clone --depth 1 -b lineage-23.2 https://github.com/WibuRachSapphireTree/device_xiaomi_sapphire-kernel device/xiaomi/sapphire-kernel
+git clone --depth 1 -b lineage-24.0 https://github.com/WibuRachSapphireTree/device_xiaomi_sapphire-kernel device/xiaomi/sapphire-kernel
 
 rm -rf device/xiaomi/sepolicy
-git clone --depth 1 -b 16 https://github.com/WibuRachSapphireTree/device_xiaomi_sepolicy device/xiaomi/sepolicy
+git clone --depth 1 -b 17 https://github.com/WibuRachSapphireTree/device_xiaomi_sepolicy device/xiaomi/sepolicy
 
 rm -rf device/xiaomi/sapphire
-git clone --depth 1 -b lineage-23.2 https://github.com/WibuRachSapphireTree/device_xiaomi_sapphire device/xiaomi/sapphire
+git clone --depth 1 -b lineage-24.0 https://github.com/WibuRachSapphireTree/device_xiaomi_sapphire device/xiaomi/sapphire
 
 rm -rf vendor/xiaomi/sapphire
-git clone --depth 1 -b lineage-23.2 https://github.com/WibuRachSapphireTree/vendor_xiaomi_sapphire vendor/xiaomi/sapphire
+git clone --depth 1 -b lineage-24.0 https://github.com/WibuRachSapphireTree/vendor_xiaomi_sapphire vendor/xiaomi/sapphire
 
 rm -rf hardware/xiaomi
-git clone --depth 1 -b lineage-23.2 https://github.com/WibuRachSapphireTree/android_hardware_xiaomi hardware/xiaomi
+git clone --depth 1 -b lineage-24.0 https://github.com/WibuRachSapphireTree/android_hardware_xiaomi hardware/xiaomi
 
 rm -rf hardware/dolby
 git clone --depth 1 https://github.com/WibuRachSapphireTree/hardware_dolby hardware/dolby
@@ -71,19 +71,19 @@ Clone Full
 echo "Cloning Device Trees for Sapphire..."
 
 rm -rf device/xiaomi/sapphire-kernel
-git clone -b lineage-23.2 https://github.com/WibuRachSapphireTree/device_xiaomi_sapphire-kernel device/xiaomi/sapphire-kernel
+git clone -b lineage-24.0 https://github.com/WibuRachSapphireTree/device_xiaomi_sapphire-kernel device/xiaomi/sapphire-kernel
 
 rm -rf device/xiaomi/sepolicy
-git clone -b 16 https://github.com/WibuRachSapphireTree/device_xiaomi_sepolicy device/xiaomi/sepolicy
+git clone -b 17 https://github.com/WibuRachSapphireTree/device_xiaomi_sepolicy device/xiaomi/sepolicy
 
 rm -rf device/xiaomi/sapphire
-git clone -b lineage-23.2 https://github.com/WibuRachSapphireTree/device_xiaomi_sapphire device/xiaomi/sapphire
+git clone -b lineage-24.0 https://github.com/WibuRachSapphireTree/device_xiaomi_sapphire device/xiaomi/sapphire
 
 rm -rf vendor/xiaomi/sapphire
-git clone -b lineage-23.2 https://github.com/WibuRachSapphireTree/vendor_xiaomi_sapphire vendor/xiaomi/sapphire
+git clone -b lineage-24.0 https://github.com/WibuRachSapphireTree/vendor_xiaomi_sapphire vendor/xiaomi/sapphire
 
 rm -rf hardware/xiaomi
-git clone -b lineage-23.2 https://github.com/WibuRachSapphireTree/android_hardware_xiaomi hardware/xiaomi
+git clone -b lineage-24.0 https://github.com/WibuRachSapphireTree/android_hardware_xiaomi hardware/xiaomi
 
 rm -rf hardware/dolby
 git clone https://github.com/WibuRachSapphireTree/hardware_dolby hardware/dolby
