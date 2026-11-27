@@ -20,7 +20,7 @@ rm -rf hardware/xiaomi
 git clone --depth 1 -b lineage-24.0 https://github.com/LineageOS/android_hardware_xiaomi hardware/xiaomi
 
 rm -rf hardware/dolby
-git clone --depth 1 https://github.com/WibuRachSapphireTree/hardware_dolby hardware/dolby
+git clone --depth 1 -b 16 https://github.com/WibuRachSapphireTree/hardware_dolby hardware/dolby
 
 rm -rf device/xiaomi/miuicamera-sapphire
 git clone --depth 1 -b lineage-24.0 https://github.com/WibuRachSapphireTree/device_xiaomi_miuicamera-sapphire device/xiaomi/miuicamera-sapphire
@@ -92,7 +92,7 @@ rm -rf hardware/xiaomi
 git clone -b lineage-24.0 https://github.com/LineageOS/android_hardware_xiaomi hardware/xiaomi
 
 rm -rf hardware/dolby
-git clone https://github.com/WibuRachSapphireTree/hardware_dolby hardware/dolby
+git clone -b 16 https://github.com/WibuRachSapphireTree/hardware_dolby hardware/dolby
 
 rm -rf device/xiaomi/miuicamera-sapphire
 git clone -b lineage-24.0 https://github.com/WibuRachSapphireTree/device_xiaomi_miuicamera-sapphire device/xiaomi/miuicamera-sapphire
